@@ -1,0 +1,32 @@
+/****************
+	公共样式
+****************/
+html { font-size: 85.3px;}
+body{font-size: 11.942px; }
+@media only screen and (min-width: 360px) {
+html { font-size: 96px; }
+body{font-size: 13.44px; }
+}
+@media only screen and (min-width: 375px) {
+html { font-size: 100px; }
+body{font-size: 14px; }
+}
+@media only screen and (min-width: 384px) {
+html { font-size: 102.4px; }
+body{font-size: 14.336px; }
+}
+/*去除默认样式*/
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, button, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, input, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, select, small, span, strike, strong, sub, summary, sup, table, textarea, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video { margin: 0; padding: 0; box-sizing: border-box; -webkit-appearance: none; /*去除系统默认的样式*/ word-break:break-all; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* 点击高亮的颜色*/}
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+i, em, b, strong { font-style: normal; }
+table{ border-collapse:collapse; }
+li{list-style-type:none;}
+body { font: 0.14rem/1 "Microsoft YaHei",Arial,Helvetica,sans-serif;}
+a { text-decoration: none; color: inherit; }
+a:focus { outline: none; }
+img { border: none; vertical-align:middle;}
+input, button, select, textarea { outline: none; border: none; font-size: inherit; font-family:inherit; line-height:normal;}
+input.disabled, textarea.disabled { background: #ccc;}
+button.disabled{background: #ccc;color:#fff;}
+button.disabled:hover{background: #ccc;color:#fff;cursor:default;}
+textarea { resize: none; }
