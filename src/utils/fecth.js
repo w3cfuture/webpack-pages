@@ -5,7 +5,7 @@ const fetch = axios.create();
 export default function request(url, options) {
     const opts = {
       headers: {
-        'X-Requested-With': 'XMLHttpRequest'
+        'Content-Type': 'application/json' // 允许跨域，服务器设置'Access-Control-Allow-Origin', '*'
       },
       ...options,
     };

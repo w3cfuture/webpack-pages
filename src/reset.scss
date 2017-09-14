@@ -30,3 +30,8 @@ input.disabled, textarea.disabled { background: #ccc;}
 button.disabled{background: #ccc;color:#fff;}
 button.disabled:hover{background: #ccc;color:#fff;cursor:default;}
 textarea { resize: none; }
+
+
+*{
+	line-height: 2;
+}
