@@ -1,23 +1,29 @@
 # vue-webpack
 
-webpack多页面脚手架o.
+webpack多页面脚手架.
 
 ### 使用说明
 
-Prerequisites: [Node.js](https://nodejs.org/en/) (>=4.x, 6.x preferred), npm version 3+ and [Git](https://git-scm.com/).
+src/apps下面每一个模块会打包为一个单独的页面，如detail模块会打包成detail.html、detail.css和detail.js. 模块下面index.js和index.html这两个文件不能改变（改变需要改webpack.config.js）,其它的名称和路径自定义
+
+### 安装包
 
 ``` bash
-$ npm install -g vue-cli
+$ npm instal
+```
+或
+``` bash
+$ yarn instal
 ```
 
-### Usage
+### 开发:
 
 ``` bash
-$ vue init <template-name> <project-name>
+$ npm run dev
 ```
 
-Example:
+### 打包:
 
 ``` bash
-$ vue init webpack my-project
+$ npm run build
 ```
