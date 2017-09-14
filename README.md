@@ -1,4 +1,4 @@
-# vue-webpack
+# webpack-pages
 
 webpack多页面脚手架.
 
