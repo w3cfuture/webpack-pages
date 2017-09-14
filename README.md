@@ -9,11 +9,11 @@ src/apps下面每一个模块会打包为一个单独的页面，如detail模块
 ### 安装包
 
 ``` bash
-$ npm instal
+$ npm install
 ```
 或
 ``` bash
-$ yarn instal
+$ yarn install
 ```
 
 ### 开发:
