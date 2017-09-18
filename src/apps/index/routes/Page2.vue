@@ -24,7 +24,7 @@
         },
         methods: {
             test() {
-                router.push({ name: '/', params: { userId: 123 } })
+                router.push({ name: '/', params: { userId: 123 } });
             }
         },
     };
