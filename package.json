@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --open",
-    "build": "rimraf dist && webpack"
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open",
+    "build": "rimraf dist && cross-env NODE_ENV=production webpack"
   },
   "author": "wenyin",
   "license": "ISC",
@@ -16,6 +16,7 @@
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.6.0",
     "babel-preset-stage-2": "^6.24.1",
+    "cross-env": "^5.0.5",
     "css-loader": "^0.28.5",
     "eslint": "^4.6.1",
     "eslint-config-airbnb-base": "^12.0.0",
