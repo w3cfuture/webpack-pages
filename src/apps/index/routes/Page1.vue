@@ -2,7 +2,7 @@
     <div>
         <common-header></common-header>
         <div>{{msg}}</div>
-        <router-link to="/page2">去page2页面</router-link><br/>
+        <router-link to="/page2">去page2页面11</router-link><br/>
         <a href="detail.html">去detail页面</a>
         <common-footer></common-footer>
         <div>{{count}}</div>
