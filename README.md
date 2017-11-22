@@ -16,7 +16,7 @@ $ npm install
 $ yarn install
 ```
 
-### 开发哈哈:
+### 开发:
 
 ``` bash
 $ npm run dev
